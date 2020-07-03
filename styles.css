@@ -1,0 +1,56 @@
+.container {
+    margin: 10%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+.one h1 {
+    font-size: 80px;
+}
+.one img {
+    margin-right: 15px;
+    height: 80px;
+}
+
+.deux{
+    display: flex;
+    align-items: center;
+}
+
+.horotext {
+    width: 65%;
+}
+.horoimg {
+    width: 35%;
+}
+
+.trois {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trois div {
+    margin: 10px;
+    width:150px;
+}
+
+.quatre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.quatre div {
+    width: 400px;
+}
+.quatre div img {
+    width: 100%;
+}
